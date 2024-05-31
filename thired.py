@@ -13,3 +13,9 @@ y_int = int(y)
 concatenated_string = x_str + " apples"
 print(concatenated_string)
 print(y_int)
+# 3............
+is_sunny = True
+is_rainy = False
+print("is_sunny and is_rainy:",is_sunny and is_rainy)
+print("is_sunny or is_rainy:",is_sunny or is_rainy)
+print("not is_sunny:",not is_sunny)
