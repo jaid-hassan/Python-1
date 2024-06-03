@@ -36,7 +36,7 @@ else :
 
 # 5............
 userin4 =float(input("Enter your score (out of 100) : "))
-if 50 <= userin4 >= 100 :
+if 50 <= userin4 <= 100 :
     print("Pass.")
 else :
     print("Fail.")
