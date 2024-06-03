@@ -1,5 +1,6 @@
 # 1.............
 userin =int(input("Enter your number sir: "))
+
 if userin > 0 :
     print("The number is positive.")
 elif userin < 0 :
@@ -9,6 +10,7 @@ else :
 
 # 2.............
 userin2 =int(input("Enter your age sir: "))
+
 if userin2 >= 18 :
     print("You are elegible for vote.")
 else :
@@ -17,6 +19,7 @@ else :
 # 3.............
 num1 =float(input("Enter the first number: "))
 num2 =float(input("Enter the second number: "))
+
 if num1 < num2 :
    print("Second number is the larger number.")
 elif num1 > num2 :
@@ -42,6 +45,7 @@ else :
 operator = input("Enter a operator(  +, _ , * , / ) : ")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
+
 if operator == "+" :
     result = num1+num2
 if operator == "-" :
