@@ -7,7 +7,7 @@ elif userin < 0 :
     print("The number is negative.")
 else :
     print("The number is zero.")
-
+ 
 # 2.............
 userin2 =int(input("Enter your age sir: "))
 
