@@ -43,15 +43,14 @@ else :
 
 # 6.............
 operator = input("Enter a operator(  +, _ , * , / ) : ")
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = int (input("Enter the first number: "))
+num2 = int (input("Enter the second number: "))
 
 if operator == "+" :
-    result = num1+num2
+    print("The result is: ", int(num1+num2))
 if operator == "-" :
-    result = num1-num2
+    print("The result is: ", int(num1-num2))
 if operator == "*" :
-    result = num1*num2
+    print("The result is: ", int(num1*num2))
 if operator == "/" :
-    result = num1/num2
-print("The result is: ",int(result))
+    print("The result is: ", int(num1/num2))
