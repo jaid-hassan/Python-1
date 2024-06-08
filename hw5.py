@@ -1,2 +1,2 @@
- # Jaid hassan is a very good person. Rashid is a bedi pagol. 
-for i in 
+for i in range(1,21):
+    print(i*i)
