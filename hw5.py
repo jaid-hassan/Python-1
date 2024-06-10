@@ -21,7 +21,7 @@ num_list.append(11)
 del num_list[2]
 
 # 5....................
-num_list = [1,2,3,4,5,6,7,8]
+num_list = [1,2,3,4,5,6]
 print(len(num_list))
 doubled_numbers=num_list+num_list
 print(doubled_numbers)
